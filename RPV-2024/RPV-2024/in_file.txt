@@ -1,0 +1,48 @@
+number function sum(number one, number two) {
+	return one + two;
+}
+
+main {
+	define number a = 0;)
+	cycle (a; a<=4; a=a+1) {
+		print(a);
+	}
+	
+	define number b;
+	b = 11;
+	if(b >= 3) {
+		print("number b >= 3");
+	}
+	if(b <= 4) {
+		print("number b <= 4");
+	}
+	if(b == 11) {
+		print("number b == 11");
+	}
+	print(a);
+	print(b);
+	print(sum(a, b));
+
+	define number b3;
+	b3 = power(b, 3);
+	print(b3);
+
+	define number no = nb10010;
+	define number nd = no3471;
+	define number c = b10010;
+	define number d = o3471;
+
+	define string s1;
+	s1 = "ffss";
+	define string s2;
+	s2 = "ffssss";
+	define number for_s;
+	for_s = lex_compare(s1, s2);
+	print(for_s);
+
+	define number g = 4 + sum(a, b);
+	print(g);
+	define char symb;
+	symb = 'd';
+	print(symb);
+}
